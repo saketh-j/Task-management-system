@@ -1,5 +1,6 @@
 # Task-management-system
 MERN project
+ ## npm start to for frontend and nodemon to start backend server
 ![image](https://github.com/saketh-j/Task-management-system/assets/109161554/6626b4af-434a-4fcb-912f-72d18c915e51)
 
 ## dependecies used 
