@@ -8,6 +8,7 @@ const User = require('./models/user.model')
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcrypt')
 const Task = require('./models/Task');
+const PORT = process.env.PORT || 1998
 
 app.use(cors())
 app.use(express.json())
@@ -106,6 +107,6 @@ app.get('/api/tasks', async (req, res) => {
 	}
   });
 
-app.listen(1998, () => {
-	console.log('Server started on 1998')
+app.listen(PORT, () => {
+	console.log(`Server started on port ${PORT}`)
 })
